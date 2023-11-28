@@ -1,1 +1,28 @@
 # finetune-langchain
+
+Configuration Setup:
+
+Utilized the langchain library for language model interaction.
+Configured the project using environment variables loaded from a .env file.
+Data Integration:
+
+Established a connection to a MySQL database ("atliq_tshirts") using SQLDatabase from langchain.
+Incorporated a few-shot dataset (few_shots) containing examples of SQL queries and their corresponding results.
+Embeddings and Vectorization:
+
+Employed Hugging Face's sentence-transformers model for generating embeddings.
+Created a vector store using Chroma from langchain for efficient storage and retrieval of vectorized examples.
+Semantic Similarity:
+
+Implemented a SemanticSimilarityExampleSelector to identify the most relevant few-shot examples based on semantic similarity.
+Prompt Templates:
+
+Defined a FewShotPromptTemplate for constructing prompts with few-shot examples.
+Specified input variables for questions, SQL queries, SQL results, and answers.
+Execution and Output:
+
+Created an SQLDatabaseChain to interact with the language model, the database, and the few-shot examples.
+Executed the project by running a sample question ("How much is the price of all blue Nike t-shirts?") through the database chain.
+Result:
+
+Printed the output of the query to demonstrate successful integration and execution.
