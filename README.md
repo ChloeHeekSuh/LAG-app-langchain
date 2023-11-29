@@ -1,5 +1,7 @@
 # finetune-langchain
 
+<img src="https://github.com/ChloeHeekSuh/finetune-langchain/blob/main/Streamlit-finetune_app.gif", width='1000'>
+
 ### Configuration Setup:
 Utilized the LangChain library for language model interaction.
 Configured the project using environment variables loaded from a .env file.
