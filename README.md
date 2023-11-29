@@ -4,7 +4,7 @@
 
 ### Configuration Setup:
 Utilized the LangChain library for language model interaction.
-Configured the project using environment variables loaded from a .env file.
+Configured the project using environment variables loaded from a .env file(It has an OpenAI API key like 'OPENAI_API = YOUR API KEY').
 
 ### Data Integration:
 Established a connection to a MySQL database using SQL database from LangChain.
