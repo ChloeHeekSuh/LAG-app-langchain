@@ -1,6 +1,6 @@
 # finetune-langchain
 
-![](https://github.com/ChloeHeekSuh/finetune-langchain/blob/main/Streamlit-finetune_app.gif)
+
 
 ### Configuration Setup:
 Utilized the LangChain library for language model interaction.
