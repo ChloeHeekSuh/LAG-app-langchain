@@ -1,4 +1,4 @@
-# finetune-langchain
+# RAG App using LangChain
 
 ![](https://github.com/ChloeHeekSuh/finetune-langchain/blob/main/Streamlit-finetune_app_2.gif)
 
